@@ -4,13 +4,11 @@ import betamovie.betamovie.dto.request.ApiResponse;
 import betamovie.betamovie.dto.request.UserCreateRequest;
 import betamovie.betamovie.dto.request.UserUpdateRequest;
 import betamovie.betamovie.dto.response.UserResponse;
-import betamovie.betamovie.entity.UserTest;
 import betamovie.betamovie.service.UserService;
 import jakarta.validation.Valid;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
